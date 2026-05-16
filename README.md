@@ -1,3 +1,97 @@
-# WINDOWS-ILE-UYUMLU-JARVIS
-ASIL SAHIBI ALP UNLU OLAN JARVIS SADECE macOS TABANLIDIR BEN ISE HER WINDOWS KULLANICISININ KULLANMASI ICIN JARVISI WINDOWS TABANLI YAPTIM(ALP UNLU'YE TESEKKURLER)
-KURULUM VIDEOSU ICIN YOUTUBE'DA ALP UNLU NUN SU VIDEOSUNA ULASABILIRSINIZ:https://www.youtube.com/watch?v=6D136kF5dbs
+# 🚀 Windows Uyumlu Akıllı Asistan: JARVIS
+
+
+Bu proje; sesli ve yazılı komutlarla çalışan, bilgisayar otomasyonu, ekran analizi (vision), hava durumu, WhatsApp/Spotify entegrasyonu gibi gelişmiş özelliklere sahip Windows tabanlı bir kişisel yapay zeka asistanıdır.
+
+
+Proje, Windows sistemlerde ve kararlı Python sürümlerinde sıfır hata ile çalışacak şekilde optimize edilmiştir.
+
+
+---
+
+
+## 🛠️ Kurulum Adımları (Adım Adım)
+
+
+Projenin bilgisayarınızda sorunsuz çalışması için aşağıdaki adımları sırasıyla takip etmeniz yeterlidir.
+
+
+### 1. Python Sürümü Kurulumu (Önemli!)
+
+
+Projede kullanılan ses ve otomasyon kütüphanelerinin hatasız çalışması için **Python 3.12** sürümü zorunludur. (Daha yeni veya test aşamasındaki sürümler hata verebilir).
+
+
+* Eğer bilgisayarınızda Python yüklü değilse veya farklı bir sürüm varsa kaldırın.
+
+  
+* Komut Satırını (CMD) açın ve şu komutla Python 3.12'yi otomatik olarak güvenle kurun:
+  ```bash
+  py install 3.12
+  
+
+ 2. Projeyi Bilgisayarınıza İndirin
+
+
+ Projeyi bilgisayarınıza klonlayın veya ZIP olarak indirip bir klasöre çıkarın:
+
+
+ git clone [https://github.com/erentur7-debug/WINDOWS-ILE-UYUMLU-JARVIS.git](https://github.com/erentur7-debug/WINDOWS-ILE-UYUMLU-JARVIS.git)
+cd WINDOWS_ILE_UYUMLU_JARVIS
+
+
+(Not: Eğer iç içe iki klasör varsa, main.py dosyasının olduğu asıl klasörün içinde terminali açtığınızdan emin olun).
+
+
+3. Gerekli Kütüphanelerin (Bağımlılıkların) Yüklenmesi
+
+
+Windows sistemlerde pyaudio ve diğer kritik araçların hata vermeden kurulabilmesi için Python 3.12 ortamını zorlayarak yükleme yapıyoruz. Terminale şu komutu yapıştırın ve işlemlerin bitmesini bekleyin:
+
+
+    py -3.12 -m pip install -r requirements.txt
+
+
+ 🚀 Sistemi Başlatma (Ateşleme)
+
+
+ Her şey başarıyla kurulduktan sonra Jarvis'i arayüzüyle birlikte çalıştırmak için terminale şu komutu yazmanız yeterlidir:
+
+
+    py -3.12 main.py
+
+
+ 📌 Önemli Ayarlar ve Hatırlatmalar
+
+
+ Jarvis'in tüm fonksiyonlarını tam performansla kullanabilmek için çalıştırmadan önce şunlara dikkat edin:
+
+
+ Takvim ve Hatırlatıcılar: Jarvis'in takviminize erişebilmesi için Windows bilgisayarınızda varsayılan Outlook uygulamasının en az bir kez açılmış ve kurulmuş olması gerekir.
+
+
+ Hava Durumu: Canlı hava durumu verileri için actions/weather.py dosyası içerisine kendi ücretsiz OpenWeatherMap API anahtarınızı eklemeyi unutmayın.
+
+
+ Uygulama Yolları: WhatsApp ve Spotify'ı sesli komutla açabilmek için, bu uygulamaların bilgisayarınızdaki kurulu olduğu yolları actions/open_app.py ve actions/whatsapp.py dosyalarından kontrol edebilirsiniz.
+
+
+ 💬 Kullanım ve Komutlar
+
+
+ Jarvis açıldığında fütüristik ekran arayüzüyle sizi karşılayacaktır. Mikrofonunuz üzerinden sesli olarak veya ekrandaki metin kutusunu kullanarak şu komutları test edebilirsiniz:
+
+
+ 🗣️ "Jarvis, sistem bilgisini ver."
+ 
+
+🗣️ "Jarvis, bugün hava nasıl?"
+
+
+🗣️ "Jarvis, WhatsApp'ı aç."
+
+
+🗣️ "Jarvis, ekranımda ne var?" (Screen Vision aktifleşir)
+
+
+💡 Geliştirici Notu: Bu proje tamamen Windows çalışma akışına uygun olarak optimize edilmiş olup, eski macOS bağımlılıklarından tamamen arındırılmıştır.

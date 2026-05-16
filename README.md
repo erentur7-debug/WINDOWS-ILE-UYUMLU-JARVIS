@@ -1,2 +1,3 @@
 # WINDOWS-ILE-UYUMLU-JARVIS
-Asil sahibi alp unlu fakat alp unlu abimiz yalnizca macos tabanli yaptigi icin bende wiondowsa uyumlu olanini gelistirip sizlerle paylasmak istedim
+ASIL SAHIBI ALP UNLU OLAN JARVIS SADECE macOS TABANLIDIR BEN ISE HER WINDOWS KULLANICISININ KULLANMASI ICIN JARVISI WINDOWS TABANLI YAPTIM(ALP UNLU'YE TESEKKURLER)
+KURULUM VIDEOSU ICIN YOUTUBE'DA ALP UNLU NUN SU VIDEOSUNA ULASABILIRSINIZ:https://www.youtube.com/watch?v=6D136kF5dbs
